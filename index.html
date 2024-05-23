@@ -1,16 +1,32 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
-    <script type="module" src="javascript/controller/index.js"></script>
-  </head>
-  <body>
-    <header>hello</header>
 
-    <main>
-      <div id="movieList"></div>
-    </main>
-  </body>
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Document</title>
+  <link rel="stylesheet" href="./stylesheet/main.css">
+  <script type="module" src="javascript/controller/index.js"></script>
+</head>
+
+<body>
+  <header>
+    <nav>
+      <a href="./index.html"><img src="./assets/images/logo.png" alt=""></a>
+      <div>
+        <a href="./login.html" id="login">Login</a>
+        <a href="./signup.html" id="signin">Signup</a>
+      </div>
+    </nav>
+  </header>
+  <main>
+    <div class="topbar">
+      <div class="overlay"></div>
+      <marquee id="marq">
+        <div id="movieList"></div>
+      </marquee>
+    </div>
+  </main>
+</body>
+
 </html>

@@ -5,5 +5,5 @@ function events(){
 }
 
 function getMovieId(){
-    window.
+   
 }
