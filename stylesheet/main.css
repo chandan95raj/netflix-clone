@@ -139,6 +139,7 @@ img {
 .card {
   width: 230px;
   border: 1px solid rgb(156, 156, 156);
+  cursor: pointer;
 }
 
 .card:hover {
@@ -153,4 +154,9 @@ img {
 .container {
   width: 90%;
   margin: 40px auto;
+}
+
+.textBox {
+  padding: 20px;
+  text-align: center;
 }

@@ -25,6 +25,8 @@ function showMovie(movie){
     const main = document.getElementById("main");
 
     const backImage = document.createElement("img");
+    const textBox = document.createElement("div");
+    textBox.classList.add("textBox");
 
     backImage.src = `https://image.tmdb.org/t/p/w500/${movie.backdrop_path}`
 
@@ -36,8 +38,9 @@ function showMovie(movie){
     const overview = document.createElement("p")
     overview.textContent = movie.overview
     
-    main.appendChild(backImage)
-    main.appendChild(title);
-    main.appendChild(tagline);
-    main.appendChild(overview);
+    main.appendChild(backImage);
+    main.appendChild(textBox);
+    textBox.appendChild(title);
+    textBox.appendChild(tagline);
+    textBox.appendChild(overview);
 }
