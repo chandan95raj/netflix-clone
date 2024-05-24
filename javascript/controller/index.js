@@ -34,5 +34,5 @@ function showMovies(movies,type){
 function showDetails(){
     const movieId = this.getAttribute("movieId");
 
-    window.location.href = `../../detail.html?movieId=${movieId}`
+    window.location.href = `../../../netflix-clone/detail.html?movieId=${movieId}`
 }
