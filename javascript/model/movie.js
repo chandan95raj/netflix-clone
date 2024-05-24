@@ -1,3 +1,4 @@
+
 class Movie{
     constructor (id,title,imagePath){
         this.id = id,
