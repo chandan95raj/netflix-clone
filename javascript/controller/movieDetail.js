@@ -31,10 +31,13 @@ function showMovie(movie){
     backImage.classList.add("backDropImage")
     const title = document.createElement("h1")
     title.textContent = movie.original_title
-    const tagline = document.createElement("p")
+    const tagline = document.createElement("h2")
     tagline.textContent = movie.tagline
+    const overview = document.createElement("p")
+    overview.textContent = movie.overview
     
     main.appendChild(backImage)
     main.appendChild(title);
     main.appendChild(tagline);
+    main.appendChild(overview);
 }
